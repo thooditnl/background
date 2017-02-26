@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: Back_Ground.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Login Action</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on Home Page (passed : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters &quot;thoodi&quot; and &quot;cisd6bv)tOey(lU2&quot; (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Successful Login with Valid Credentials</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User LogOut1 from the Application (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed LogOut1 Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  i closed at 9.65 pm (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User is on Home Page (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User enters &quot;thoodi&quot; and &quot;cisd6bv)tOey(lU2&quot; (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Successful LogOut</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User LogOut2 from the Application (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Message displayed LogOut2 Successfully (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  i closed at 9.80 pm (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="79398" started-at="2017-02-23T16:26:48Z" finished-at="2017-02-23T16:28:08Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:testrunner.Runner@6bdf28bb]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="background" duration-ms="79398" started-at="2017-02-23T16:26:48Z" finished-at="2017-02-23T16:28:08Z">
+      <class name="testrunner.Runner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:testrunner.Runner@6bdf28bb]" name="run_cukes" duration-ms="79378" started-at="2017-02-23T11:26:48Z" description="Runs Cucumber Features" finished-at="2017-02-23T11:28:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: Back_Ground.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Login Action</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on Home Page (passed : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters &quot;thoodi&quot; and &quot;cisd6bv)tOey(lU2&quot; (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Successful Login with Valid Credentials</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed Login Successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User LogOut1 from the Application (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed LogOut1 Successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  i closed at 9.65 pm (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User is on Home Page (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User Navigate to LogIn Page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User enters &quot;thoodi&quot; and &quot;cisd6bv)tOey(lU2&quot; (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Successful LogOut</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User LogOut2 from the Application (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Message displayed LogOut2 Successfully (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  i closed at 9.80 pm (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- testrunner.Runner -->
+    </test> <!-- background -->
+  </suite> <!-- Default Suite -->
+</testng-results>
